@@ -1,3 +1,17 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.lado1 {
+    float: right;
+    width: 300px;
+    background: white;
+}
+
+.lado2 {
+    float: right;
+}
+
 .topo {
     background-color: rgb(218, 165, 32);
     margin-top: -8px;
@@ -7,8 +21,7 @@
 }
 
 .imagem {
-    text-align: center;
-    width: 100px;
+    width: 200px;
     height: 90px;
     margin-left: auto;
     margin-right: auto;
@@ -37,4 +50,29 @@
 .menu a:hover {
     background-color: white;
     color: rgb(218, 165, 32);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.post1 {
+    background-color: white;
+    padding: 20px;
+    padding-top: 0px;
+    width: 800px;
+}
+
+.post1 img {
+    width: 800px;
+}
+
+.post1 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 165, 32);
+    padding-top: 10px;
+    margin-bottom: -5px;
 }
