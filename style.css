@@ -1,0 +1,35 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topo {
+    background-color: goldenrod;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 130px;
+}
+
+.imagem {
+    text-align: center;
+    width: 100px;
+    height: 90px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: auto;
+    padding-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
