@@ -61,7 +61,7 @@ body {
     padding: 5px;
     transition: 0.25s;
     border-radius: 2px;
-    font-weight: bolder;
+    font-weight: bolde;
 }
 
 .menu a:hover {
@@ -83,6 +83,7 @@ body {
     padding-top: 0px;
     width: 800px;
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .post img {
@@ -114,4 +115,19 @@ body {
     margin-left: -30px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.post a {
+    color: rgb(218, 165, 32);
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+    padding: 5px;
 }
